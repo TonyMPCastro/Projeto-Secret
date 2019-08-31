@@ -1,1 +1,1 @@
-Este e um projeto para contrução de um software para gerenciamento de notas!
+ste e um projeto para contrução de um software para gerenciamento de notas!

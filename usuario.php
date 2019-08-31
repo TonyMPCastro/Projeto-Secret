@@ -32,10 +32,5 @@ class Usuario{
          $this->endereco = $end; 
     }
 
-    public function imprimeUsuario(){
-        echo  "getNome()"."getCpf()"."getEndereco()";
-    }
-
-
 
 } ?>
