@@ -19,31 +19,14 @@ $user->setCpf($cpf);
 $user->setEndereco($end);
 
 ?>
-<h1><?php
-echo "Usuario: </h1><h2>".$user->getNome();
+<center><h1><?php
+echo "Usuario: </h1><h3>".$user->getNome();
 echo "<br>";
-echo "</h2><h1>CPF:</h1><h2>".$user->getCpf();
+echo "</h3><h1>CPF:</h1><h3>".$user->getCpf();
 echo "<br>";
-echo "</h2><h1>Endereco: </h1><h2>".$user->getEndereco();
-?></h2>
-<?php
-$user2 = new Usuario;
-$nome = "Antonio ";
-$cpf = "6169";
-$end = "Rua três";
+echo "</h3><h1>Endereco: </h1><h3>".$user->getEndereco();
+?></h3>
 
-$user2->setNome($nome);
-$user2->setCpf($cpf);
-$user2->setEndereco($end);
-
-?>
-<h1><?php
-echo "Usuario: </h1><h2>".$user2->getNome();
-echo "<br>";
-echo "</h2><h1>CPF:</h1><h2>".$user2->getCpf();
-echo "<br>";
-echo "</h2><h1>Endereco: </h1><h2>".$user2->getEndereco();
-?></h2>
-
+</center>
 </body>
 </html>
